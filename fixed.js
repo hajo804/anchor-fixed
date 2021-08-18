@@ -11,9 +11,7 @@
                     .animate({
                         scrollTop: $anchor.offset().top - fixedElementHeight
                     }, 200);
-
             }
-
         };
 
         $(window).on('hashchange load', function() {
